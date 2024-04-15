@@ -1,0 +1,37 @@
+.container{
+  position: relative;
+text-align: center;
+margin-top: 300px;
+border: 1px solid black;
+
+}
+h1{
+  color:white;
+}
+#color-box{
+  
+  background-color: blue;
+  
+  margin: auto;
+  padding: auto;
+  width: 500px;
+  height: 500px;
+}
+#change-color-btn{
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 100px;
+  width: 200px;
+  height: 90px;
+  
+
+}
+#txt{
+  color: white;
+  padding-top: 190px;
+
+
+}
+body{
+  background-image: url("C:/Users/ozova/Pictures/wp4511654.webp");
+}

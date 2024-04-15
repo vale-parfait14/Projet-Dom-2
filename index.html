@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet-DOM-2 :  Changeur de couleur </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<!--
+    Configuration HTML :
+
+Créez un nouveau fichier HTML.
+
+Configurez la structure de base d'un document HTML avec la déclaration <!DOCTYPE html> , <html> , <head> et <body> .
+Ajoutez un titre au document, tel que « Changeur de couleur ».
+
+
+Créez l'interface :
+À l'intérieur de la balise body, créez un élément <div> avec un nom de classe "container" .
+À l'intérieur du conteneur, ajoutez un élément <h1> avec le texte "Color Changer".
+Créez un autre élément <div> avec un identifiant de "color-box" . Cela représentera la case dont la couleur changera.
+Ajoutez un élément <button> avec un identifiant "change-color-btn" . Le bouton doit avoir le texte « Changer la couleur ».
+
+Styliser avec CSS :
+Créez un fichier CSS et liez-le à votre document HTML à l'aide de la balise <link> .
+Stylisez la classe conteneur pour centrer son contenu horizontalement et donnez-lui une marge supérieure pour l'espacement.
+Stylisez l’identifiant de la boîte de couleur avec une largeur et une hauteur fixes et définissez une couleur d’arrière-plan par défaut.
+Stylisez l’identifiant change-color-btn pour le rendre visuellement attrayant et facilement cliquable.
+
+JavaScript pour l'interactivité :
+Créez un fichier JavaScript et liez-le à votre document HTML à l'aide de la balise <script> .
+Écrivez du code JavaScript pour attendre que le contenu DOM soit chargé à l'aide de l'événement DOMContentLoaded .
+Dans le gestionnaire d'événements, sélectionnez les éléments color-box et change-color-btn à l'aide de document.getElementById() .
+Implémentez une fonction, appelons-la getRandomColor() , qui génère une couleur aléatoire. Vous pouvez utiliser des valeurs hexadécimales ou RVB.
+Ajoutez un écouteur d'événement à l'élément change-color-btn. Lorsqu'il est cliqué, l'écouteur d'événement doit déclencher une fonction qui change la couleur d'arrière-plan de la boîte de couleur en une couleur aléatoire générée par la fonction getRandomColor() .
+Essai:
+Ouvrez votre fichier HTML dans un navigateur Web.
+Cliquez sur le bouton "Changer la couleur" et observez la couleur de la boîte changer dynamiquement.
+-->
+
+
+
+
+<body>
+
+    <div class="container">
+        <h1>Color Change</h1>
+        <div id="color-box">
+                <h2 id="txt">LA COLEUR EST MACHALLAH.</h2>
+        </div>
+        <button id="change-color-btn" onclick="setRandomColor();">Change couleur</button>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="java.js"></script>
+</body>
+</html>
